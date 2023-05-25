@@ -22,7 +22,7 @@
               window.open("HomePage.html");
                }
             else {
-                confirm("Invalid username or password. Please try again.");
+                errorMessage.textContent = 'Invalid username or password.';
                 window.open("index.html");
             }
        
