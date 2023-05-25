@@ -1,0 +1,46 @@
+body{
+    background-image: url(./loginbg.jfif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+   
+
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+  /*  background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.login {
+  /*  background-color: antiquewhite; */
+ 
+  padding-left: 30px;
+    text-align: center;
+    padding-top: 190px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+label{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+header{
+    color:aquamarine
+
+
+}
+label{
+    padding: 7px;
+}
