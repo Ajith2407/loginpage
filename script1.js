@@ -18,4 +18,4 @@
   function MainPage_return(){
     window.open("index.html");
   }
-  window
+  
