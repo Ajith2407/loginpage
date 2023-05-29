@@ -6,15 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body style="background-color: bisque;" >
+<body >
+  <div class="container">
   <h3>Click To Visit Summary or report</h3>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-   <button onclick="summary_open()">Summary</button>&nbsp;&nbsp;&nbsp;
-  <button onclick="detail_report()">Detail Report</button>&nbsp;&nbsp;&nbsp;
+  <button onclick="summary_open()">Summary</button>
+  <br> <button onclick="detail_report()">DetailReport</button>
   <button onclick="MainPage_return()">Logout</button>
 
+
+
+</div>
+
+   
 
   <p id="summary_content1" style="display: none; font-size: 20px;">
     THE KAIZEN VOIZ <br><br>
@@ -92,6 +95,7 @@ DECREASE COSTS​
 
 Reduces the high implementation and storage costs; reduces ongoing burden of relying on help desk support to assist in low level, repetitive task.
 </p>
-  <script type = "text/javascript" src="script1.js"></script>  
+<link rel="stylesheet" type="text/css" href="style1.css">
+<script type = "text/javascript" src="script1.js"></script>  
 </body>
 </html>
