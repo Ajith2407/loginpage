@@ -1,31 +1,41 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+
+
+
 body{
     width: 100%;
     height: 100vh;
 }
-header{
-    text-align: center; 
-    font-size: 40px; 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+img{
+    position:absolute;
+    top:0%;
+    left:0%;
+    width:300px;
+    height:120px;
 }
+header{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    text-align: center; 
+    font-size: 35px; 
+    color:  white; 
+    font-family: 'Fredericka the Great', cursive;}
 
 
 
 .picturebg{
-    background-image: url(./loginbg.jfif);
+    background-image: url(./image04.jpg);
     background-repeat: no-repeat;
     background-position: center center center center;
     background-size: cover;
     width: 100%;
     height: 100vh;
     background-attachment: fixed;
-   
-
     position: fixed;
-
     z-index: -1;
-    filter: blur(5px);
-
-
+   /* filter: blur(2px); */
 }
 *{
     margin: 0%;
@@ -36,17 +46,26 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    
     padding-left: 20px;
     padding-right: 20px;
+
+ 
+    
 }
 .login {
   /*  background-color: antiquewhite; */
- 
-  padding-left: 30px;
-    text-align: center;
-    padding-top: 190px;
-    padding-left: 20px;
-    padding-right: 20px;
+  box-shadow: 0 0 10px #000;
+  margin: auto auto; 
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+    width: 300px;
+    height: 400px;
+    border: 2px solid black;
 
 }
 label{
@@ -54,11 +73,6 @@ label{
     font-weight: 100;
 }
 
-header{
-    color:aquamarine
-
-
-}
 label{
     padding: 7px;
 }
