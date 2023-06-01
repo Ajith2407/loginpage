@@ -1,6 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
+    max-width: none;
 }
 h3{
     color:rgb(7, 245, 165);
@@ -52,23 +53,25 @@ button{
     padding-top: 17px;
     height:50px;
   /*  border:3px solid white;*/
-    padding-left: 30px;
+    padding-left: 40px;
 
 }
 .algin-text{
     padding-left: 30px;
     padding-top: 5px;
+    padding-right: 30px;
 }
 #summary_content1 {
     color: white;
    display: none; 
    font-size: 20px;
-   height: 400px;
-   width: 1200px;
+   height: auto;
+   width: 100%;
    border-width: 4px;
   border-style: solid;
   border-image: linear-gradient(to right, darkblue, orange,darkorchid,grey ,green,red,black) 3;
    padding-left: 15px;
+   padding-right: 15px;
 
 }
 #Detail_content2{
@@ -130,4 +133,7 @@ b{
   }
   abbr{
     text-decoration: none;
+  }
+  p #demo {
+    display:none;
   }

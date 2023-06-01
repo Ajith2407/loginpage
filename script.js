@@ -1,36 +1,26 @@
 
   
         function openNewPage() {
-            // Get username and password from the input fields
-            var username = document.getElementById("username").value;
-            var password = document.getElementById("password").value;
+          // Get username and password from the input fields
+          var email = document.getElementById("email").value;
+          var password = document.getElementById("password").value;
 
-            // Set the correct username and password
-            var correctUsername = "kishore";
-            var correctPassword = "4567";
-            var correctUsername2 = "ajith";
-            var correctPassword2 = "kumar";
+          // Set the correct username and password
+          var correctUsername = "kishore@gmail.com";
+          var correctPassword = "4567";
+         
 
-            // Check if the entered username and password match the correct credentials
-            if ((username === correctUsername && password === correctPassword) || (username === correctUsername2 && password === correctPassword2)) {
-               if(username === correctUsername && password === correctPassword){
-                alert("Hi Kishore welcome  to ksv");
-               }
-               else{
-                alert("Hi Ajith welcome to ksv");
-               }
-              window.open("HomePage.html");
-               }
-            else {
-                errorMessage.textContent = 'Invalid username or password.';
-                window.open("index.html");
-            }
-       
-
+          // Check if the entered username and password match the correct credentials
+          if (email === correctUsername && password === correctPassword)  {
             
-        }
-   
-
+              window.open("HomePage.html")
+             }
+             else{
+              document.getElementById("demo") ;
+          
+             }  
+      }
+ 
 
 
 
