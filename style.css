@@ -4,30 +4,64 @@
     box-sizing: border-box;
 }
 .loginid{
-    padding-left: 200px;
+    padding-left: 0px;
     padding-right: 100px;;
 }
 img{
-     max-width: 100%; 
+     max-width: 100%;
     height: auto;
     vertical-align: text-top;
     padding-right: 0px;
     padding-left: 1px;
 }
+
+    
+    
+
 body {
     height: 100vh;
     display: flex;
+    background-color:#32363a;
     align-items: center;
     justify-content: center;
-    background: #212529;
+   
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&family=Fredericka+the+Great&family=Philosopher:wght@700&display=swap');
+
+
+
+
+.text-center{
+font-weight: 600;    
+color:black;
+font-family:   'Philosopher', sans-serif;
+}
+
+#demo{
+    visibility: hidden;;
+}
+.form-label{
+    color:white;
+    font-weight: 600;
+    font-size: 16px;
+}
+input#email.form-control{
+    background-color: rgb(233, 230, 228);
+   
 }
 
 .login {
-    width: 360px;
+    width: auto;
     height: min-content;
     padding: 20px;
+
     border-radius: 12px;
-    background: #41464b;
+    background-color: #41464b;
+   
+  
 }
 
 .login h1 {
@@ -47,4 +81,11 @@ body {
     font-size: 20px;
     margin-top: 15px;
 }
-
+@media screen and (max-width: 930px) {
+    body{
+      flex-direction: column;
+    }
+    .loginid {
+        padding-right: 0px;
+      }
+  }
